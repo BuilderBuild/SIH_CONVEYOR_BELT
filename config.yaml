@@ -1,0 +1,14 @@
+model: runs/detect/conveyor_defect_v1/weights/best.pt
+confidence: 0.25
+iou: 0.45
+image_size: 640
+max_detections: 100
+device: auto
+output_directory: outputs
+database: outputs/conveyx.sqlite3
+alerts_enabled: true
+alert_hits: 3
+alert_match_iou: 0.3
+alert_expiry_seconds: 2.0
+max_upload_mb: 200
+camera_max_seconds: 120

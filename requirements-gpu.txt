@@ -1,0 +1,5 @@
+# Install only in the approved dedicated GPU environment.
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.12.0+cu130
+torchvision==0.27.0+cu130
+-r requirements.txt

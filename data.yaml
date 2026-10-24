@@ -1,0 +1,11 @@
+
+path: ./dataset_detection
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: rupture
+  1: edge_damage
+  2: joint_defect

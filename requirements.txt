@@ -1,0 +1,12 @@
+# CPU-compatible baseline; select a CUDA-enabled torch separately after hardware review.
+ultralytics>=8.4.184,<9
+torch>=2.12,<3
+torchvision>=0.27,<1
+opencv-python>=4.13,<5
+streamlit>=1.50,<2
+PyYAML>=6,<7
+numpy>=2,<3
+pandas>=2,<4
+Pillow>=11,<14
+psutil>=7,<8
+pytest>=8,<10

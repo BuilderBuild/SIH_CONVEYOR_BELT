@@ -1,0 +1,15 @@
+.venv/
+.venv-*/
+__pycache__/
+.pytest_cache/
+outputs/
+dataset/
+dataset_detection*/
+CVAT_*YOLO/
+Images/
+runs/
+*.pt
+*.cache
+*.sqlite3*
+tools/bin/*.exe
+tools/bin/*.download
